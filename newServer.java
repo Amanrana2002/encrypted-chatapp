@@ -8,14 +8,14 @@ import java.net.*;
 import java.io.*;
 import java.util.Base64;
 
-public class NewServer extends JFrame implements ActionListener {
+public class newServer extends JFrame implements ActionListener {
 
     JTextField text;
     JPanel mp;
     static Box vertical = Box.createVerticalBox();
     static DataOutputStream dout;
 
-    NewServer() {
+    newServer() {
         super("Server");
         setLayout(null);
         createGUI();
@@ -130,7 +130,7 @@ public class NewServer extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        NewServer server = new NewServer();
+        newServer server = new newServer();
         try {
             ServerSocket ss = new ServerSocket(6001);
             while (true) {
