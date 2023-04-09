@@ -16,7 +16,7 @@ public class newServer extends JFrame implements ActionListener {
     static DataOutputStream dout;
 
     newServer() {
-        super("Server");
+        super("Server to client");
         setLayout(null);
         createGUI();
         setSize(468, 745);
