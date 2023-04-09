@@ -49,7 +49,7 @@ public class newServer extends JFrame implements ActionListener {
         add(mp);
 
         JScrollPane scrollPane = new JScrollPane(mp);
-        scrollPane.setBounds(5, 75, 440, 570);
+        scrollPane.setBounds(5, 75, 44, 570);
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         scrollPane.setBorder(null);
 
