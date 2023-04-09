@@ -33,7 +33,7 @@ public class newServer extends JFrame implements ActionListener {
         add(p1);
 
         JLabel name = new JLabel("Server");
-        name.setBounds(10, 15, 100, 18);
+        name.setBounds(10, 15, 10, 18);
         name.setForeground(Color.WHITE);
         name.setFont(new Font("SAN_SERIF", Font.BOLD, 18));
         p1.add(name);
