@@ -26,7 +26,7 @@ public class newClient extends JFrame implements ActionListener {
 
     public void createGUI() {
         JPanel p1 = new JPanel();
-        p1.setBackground(new Color(0, 0, 128));
+        p1.setBackground(new Color(110, 0, 128));
         p1.setBounds(0, 0, 450, 70);
         p1.setLayout(null);
         add(p1);
