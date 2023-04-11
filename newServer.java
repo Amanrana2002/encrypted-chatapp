@@ -20,7 +20,7 @@ public class newServer extends JFrame implements ActionListener {
         setLayout(null);
         createGUI();
         setSize(468, 745);
-        setLocation(20, 50);
+        setLocation(200, 50);
         getContentPane().setBackground(Color.WHITE);
         setVisible(true);
     }
