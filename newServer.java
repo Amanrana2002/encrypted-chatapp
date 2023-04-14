@@ -65,7 +65,7 @@ public class newServer extends JFrame implements ActionListener {
         send.setBackground(new Color(7, 94, 84));
         send.setForeground(Color.WHITE);
         send.addActionListener(this);
-        send.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
+        send.setFont(new Font("SAN_SERIF", Font.PLAIN, 17));
         add(send);
     }
 
