@@ -62,7 +62,7 @@ public class newServer extends JFrame implements ActionListener {
 
         JButton send = new JButton("Send");
         send.setBounds(320, 655, 123, 40);
-        send.setBackground(new Color(7, 94, 84));
+        send.setBackground(new Color(7, 9, 84));
         send.setForeground(Color.WHITE);
         send.addActionListener(this);
         send.setFont(new Font("SAN_SERIF", Font.PLAIN, 1));
